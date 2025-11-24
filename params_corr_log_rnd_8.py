@@ -9,4 +9,8 @@ nd = len(D)
 covD = 0.10 * np.ones(nd)
 RD = np.eye(nd)
 
+# 9
+# RD = 0.8*np.ones( nd ) + 0.2*np.eye( nd ); # c o r r e l a t e d v a r i a b i l i t y be tween node demands
+
+
 Drand = rnd(medD, covD, N, R=RD)
