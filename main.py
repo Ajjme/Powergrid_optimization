@@ -1,4 +1,11 @@
 
+import numpy as np
+
+from scipy.optimize import linprog
+# Assume sqp is defined elsewhere and imported
+from sqp import sqp  # User's SQP solver
+from LP_analysis import LP_analysis  # User's LP analysis function
+from opt_options import opt_options  # User's options function
 
 # --------------------------
 # Problem data (direct translation)
