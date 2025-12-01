@@ -18,7 +18,7 @@ from scipy.linalg import cho_factor, cho_solve
 from opt_options import opt_options
 from matplotlib import pyplot as plt
 from plot_opt_surface import plot_opt_surface
-from quadprog import solve_qp
+# from quadprog import solve_qp
 
 
 def sqp(func, v_init, v_lb=None, v_ub=None, options_in=None, consts=1.0):
